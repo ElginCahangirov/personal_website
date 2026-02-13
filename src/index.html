@@ -1,286 +1,409 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Elgin Cahangirov</title>
-
-    <meta name="viewport" content="width=device-width" />
-    <meta name="description" content="Personal resume of Elgin Cahangirov" />
-    <meta charset="UTF-8" />
-
-    <link type="text/css" href="./style.css" rel="stylesheet" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300"
-      rel="stylesheet"
-      type="text/css"
-    />
-  </head>
-  <body id="top">
-
-    <!-- Google tag (gtag.js) -->
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Elgin Cahangirov | Software Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Roboto+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-8K72WDGZH5"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'G-8K72WDGZH5');
     </script>
 
-    <div id="cv" class="instaFade">
-      <div class="mainDetails">
-        <div id="headshot" class="quickFade">
-          <img src="./headshot.jpg" alt="Elgin Cahangirov" />
+    <main class="document-container">
+        <div class="header-actions no-print">
+            <button id="theme-toggle" class="theme-toggle" title="Toggle dark mode">
+                <span class="material-symbols-outlined theme-icon-dark">light_mode</span>
+                <span class="material-symbols-outlined theme-icon-light">dark_mode</span>
+            </button>
         </div>
 
-        <div id="name">
-          <h1 class="quickFade delayTwo">Elgin Cahangirov</h1>
-          <h2 class="quickFade delayThree">Software Engineer</h2>
-        </div>
-
-        <div class="clear"></div>
-      </div>
-
-      <div id="mainArea" class="quickFade delayFive">
-        <section>
-          <article>
-            <div class="sectionTitle">
-              <h1>About Me</h1>
+        <header class="header">
+            <div>
+                <img
+                    alt="Elgin Cahangirov"
+                    class="profile-image"
+                    src="headshot.jpg"
+                />
             </div>
-
-            <div class="sectionContent">
-              <p class="aboutme">
-                With a background in Economics and Finance, I have long been captivated by computer technologies and their
-                underlying mechanics. This passion motivated me to transition to a career in IT after working for a few
-                years in the finance sector. In hindsight, while I missed having a formal IT education, I don't regret my
-                finance studies,as they've proven valuable to my career and personal growth.
-                <br><br>
-                I recently reached the five-year mark in my software engineering career. Beginning with self-study to secure
-                my first developer role, I have since gained hands-on experience with widely used technologies and real-world
-                projects. My work has spanned diverse projects, largely with companies providing IT solutions. More details
-                on my experience can be found in the relevant section of my profile.
-                <br><br>
-                Although my non-IT educational background initially posed challenges, especially in securing my first job,
-                I overcame these through analytical thinking and a practical approach to tasks. My senior team members have
-                consistently given me positive feedback on my work. To strengthen my theoretical IT foundation, I regularly
-                engage in self-study, particularly in areas like data structures and algorithms.
-                <br><br>
-                My journey as a software developer has been rewarding both personally and for the stakeholders I work with.
-                I'm looking forward not to stop it!
-              </p>
+            <div class="header-content">
+                <h1 class="name">Elgin Cahangirov</h1>
+                <p class="title">Software Engineer</p>
+                <div class="contact-info">
+                    <span>cahangirove@gmail.com</span>
+                </div>
             </div>
-          </article>
-          <div class="clear"></div>
+        </header>
+
+        <hr class="markdown-hr"/>
+
+        <section class="section">
+            <h2 class="section-title">About Me</h2>
+            <p class="summary-text">
+                I am a Python backend developer with over 5 years of experience, primarily focused on web development projects. My expertise lies in backend development with Python, and I have a solid understanding of frontend technologies, including HTML, CSS, and JavaScript.
+            </p><br>
+
+            <p class="summary-text">
+                In the past three years, I have had the opportunity to work on various projects for clients based in Europe and the US. This experience has allowed me to become well-versed in commonly used technologies and methodologies in software development.
+            </p><br>
+
+            <p class="summary-text">
+                Programming has always been at the center of my interests, and I feel fortunate to have turned this passion into a professional career. Working on real-world projects has not only enhanced my technical skills but also helped me develop the ability to deliver customer-focused solutions tailored to client needs.
+            </p>
         </section>
 
-        <section>
-          <article>
-            <div class="sectionTitle">
-              <h1>Contact Info</h1>
+        <section class="section">
+            <h2 class="section-title">Key Skills</h2>
+            <div class="competencies-grid">
+                <div>
+                    <h3 class="competency-title">Languages &amp; Frameworks</h3>
+                    <p class="competency-text">
+                        Python, Django, Flask, FastAPI, Django Rest Framework, JavaScript.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="competency-title">Databases &amp; Storage</h3>
+                    <p class="competency-text">
+                        PostgreSQL, MySQL, MongoDB, DynamoDB, Elasticsearch, Redis.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="competency-title">Infrastructure &amp; Tools</h3>
+                    <p class="competency-text">
+                        Docker, Kubernetes, AWS, Google Cloud Platform, Git, CI/CD, gRPC.
+                    </p>
+                </div>
             </div>
-
-            <div class="sectionContent">
-              <table class="langTable">
-                <tr>
-                  <td class="infoTitle">Name:</td>
-                  <td>Elgin Cahangirov</td>
-                </tr>
-                <tr>
-                  <td class="infoTitle">Email:</td>
-                  <td>cahangirove@gmail.com</td>
-                </tr>
-              </table>
-            </div>
-          </article>
-          <div class="clear"></div>
         </section>
 
-        <section>
-          <div class="sectionTitle">
-            <h1>Work Experience</h1>
-          </div>
+        <hr class="markdown-hr"/>
 
-          <div class="sectionContent">
+        <section class="section">
+            <h2 class="section-title section-title-lg">Work Experience</h2>
 
-            <article class="sectionJob">
-              <h2>Software Engineer</h2>
-              <h3>CHI Software</h3>
-              <p class="subDetails">December 2021 - Present</p>
-              <div class="jobDesc">
-                <p>
-                  The company provided outstaffed developers for client software projects. I collaborated with multiple
-                  clients and projects, primarily as a senior developer and occasionally as a lead developer for smaller
-                  teams. The company's clients were based in Europe and the US, allowing me to work with international teams
-                  across different time zones. Key achievements in this role include:
-
-                  <ul>
-                    <li>Strengthened remote working skills by collaborating with international teams from diverse locations</li>
-                    <li>Enhanced communication skills through direct interaction with clients</li>
-                    <li>Developed technical planning skills by understanding how software meets real-world needs across various business domains</li>
-                    <li>Improved teamwork abilities by working with teams of different sizes on diverse projects</li>
-                    <li>Gained experience in developing software within a microservices architecture</li>
-                    <li>Increased expertise in integrating applications with third-party tools and other internal services</li>
-                    <li>Enhanced code-reviewing skills through senior-level responsibilities on projects</li>
-                    <li>Advanced software design skills by creating infrastructure on some projects and collaborating closely with software architects on others</li>
-                    <li>Developed proficiency with cloud services by contributing to multiple cloud-based projects</li>
-                    <li>Strengthened Agile skills through active participation in projects following Agile methodologies</li>
-                  </ul>
+            <div class="card-entry">
+                <div class="card-header">
+                    <h3 class="card-title">Software Engineer — CHI Software</h3>
+                    <span class="card-date">December 2021 — Present</span>
+                </div>
+                <p class="summary-text">
+                    The company provided outstaffed developers for client software projects. I collaborated with multiple clients and projects, primarily as a senior developer and occasionally as a lead developer for smaller teams. The company's clients were based in Europe and the US, allowing me to work with international teams across different time zones. Key achievements in this role include:
                 </p>
-              </div>
-            </article>
-
-            <article class="sectionJob">
-              <h2>Software Developer</h2>
-              <h3>Talent500 Co</h3>
-              <p class="subDetails">July 2021 - November 2021</p>
-              <div class="jobDesc">
-                <p>
-                  Worked as a mid-level developer in a team of 15-20 members, contributing to multiple projects written
-                  in Python, both maintaining an existing product and developing a new one from scratch. Key achievements
-                  in this role include:
-
-                  <ul>
-                    <li>Strengthened teamwork skills by collaborating closely with other developers on projects</li>
-                    <li>Actively contributed to the development of a new HR management product from the ground up</li>
-                    <li>Enhanced technical planning skills by making critical decisions for the new product and discussing them with team members</li>
-                    <li>Gained valuable remote working experience by collaborating in a fully remote, international team</li>
-                    <li>Acquired skills in analyzing large legacy codebases</li>
-                    <li>Improved test-driven development (TDD) skills by applying this approach in the new product</li>
-                    <li>Built experience with cloud infrastructure</li>
-                  </ul>
-                </p>
-              </div>
-            </article>
-
-            <article class="sectionJob">
-              <h2>Python Developer</h2>
-              <h3>Starex MMC</h3>
-              <p class="subDetails">July 2020 - June 2021</p>
-              <div class="jobDesc">
-                <p>
-                  Worked as a mid-level developer in a team of 5-10 members, contributing to the maintenance and enhancement
-                  of the company's website, which served over 100K customers and offered transportation services. The role
-                  also involved supporting various administrative applications for managing transportation and warehousing.
-                  Key achievements in this role include:
-                </p>
-
-                <ul>
-                  <li>Strengthened problem-solving skills by working on a high-traffic product with a large customer base</li>
-                  <li>Developed a REST API backend to support the website and multiple apps (iOS & Android)</li>
-                  <li>Built backend REST APIs for administrative functions and developed several internal applications</li>
-                  <li>Gained expertise in code modularization by segmenting a large codebase into smaller, more manageable modules</li>
-                  <li>Increased application performance by optimizing database queries</li>
-                  <li>Developed supervisory skills by mentoring junior team members and reviewing their code</li>
-                  <li>Improved automated testing skills by implementing unit tests in a previously untested codebase</li>
-                  <li>Enhanced communication skills through direct collaboration with business stakeholders to define technical requirements</li>
-                  <li>Expanded proficiency with essential tools, including CI/CD, Git, databases, and CDNs</li>
+                <br>
+                <ul class="card-list">
+                    <li>
+                        Strengthened remote working skills by collaborating with international teams from diverse locations
+                    </li>
+                    <li>
+                        Enhanced communication skills through direct interaction with clients
+                    </li>
+                    <li>
+                        Improved teamwork abilities by working with teams of different sizes on diverse projects
+                    </li>
+                    <li>
+                        Gained experience in developing software within a microservices architecture
+                    </li>
+                    <li>
+                        Enhanced code-reviewing skills through senior-level responsibilities on projects
+                    </li>
+                    <li>
+                        Advanced software design skills by creating infrastructure on some projects and collaborating closely with software architects on others
+                    </li>
+                    <li>
+                        Developed proficiency with cloud services by contributing to multiple cloud-based projects
+                    </li>
+                    <li>
+                        Strengthened Agile skills through active participation in projects following Agile methodologies
+                    </li>
                 </ul>
-              </div>
-            </article>
+            </div>
 
-            <article class="sectionJob">
-              <h2>Python Developer</h2>
-              <h3>Labrin Tech</h3>
-              <p class="subDetails">November 2019 - June 2020</p>
-              <div class="jobDesc">
-                <p>
-                  Worked as a junior developer under the guidance of senior team members, contributing to various client
-                  projects to develop tailored software solutions. Key achievements in this role include:
+            <div class="card-entry">
+                <div class="card-header">
+                    <h3 class="card-title">Software Developer — Talent500 Co</h3>
+                    <span class="card-date">July 2021 — November 2021</span>
+                </div>
+                <p class="summary-text">
+                    Worked as a mid-level developer in a team of 15-20 members, contributing to multiple projects written in Python, both maintaining an existing product and developing a new one from scratch. Key achievements in this role include:
                 </p>
-
-                <ul>
-                  <li>Gained experience in translating real-world business needs into software solutions</li>
-                  <li>Developed proficiency with essential software development tools, including version control systems (Git), Docker, CI/CD, and IDEs (Visual Studio Code, PyCharm)</li>
-                  <li>Created multiple static and dynamic websites for client projects</li>
-                  <li>Improved skills in refining code based on team feedback</li>
+                <br>
+                <ul class="card-list">
+                    <li>
+                        Worked as a mid-level developer in a team of 15-20 members on multiple Python projects
+                    </li>
+                    <li>
+                        Actively contributed to the development of a new HR management product from the ground up
+                    </li>
+                    <li>
+                        Enhanced technical planning skills by making critical decisions for the new product
+                    </li>
+                    <li>
+                        Improved test-driven development (TDD) skills by applying this approach in the new product
+                    </li>
                 </ul>
-              </div>
-            </article>
-
-          </div>
-          <div class="clear"></div>
-        </section>
-
-        <section>
-          <div class="sectionTitle">
-            <h1>Languages</h1>
-          </div>
-
-          <div class="sectionContent">
-            <div class="langContainer">
-              <div class="langName">English</div>
-              <div class="langProgress">
-                <div class="progressBar">
-                  <div id="langEng"></div>
-                </div>
-              </div>
             </div>
-            <div class="langContainer">
-              <div class="langName">Russian</div>
-              <div class="langProgress">
-                <div class="progressBar">
-                  <div id="langRus"></div>
+
+            <div class="card-entry">
+                <div class="card-header">
+                    <h3 class="card-title">Python Developer — Starex MMC</h3>
+                    <span class="card-date">July 2020 — June 2021</span>
                 </div>
-              </div>
+                <p class="summary-text">
+                    Worked as a mid-level developer in a team of 5-10 members, contributing to the maintenance and enhancement of the company's website, which served over 100K customers and offered transportation services. The role also involved supporting various administrative applications for managing transportation and warehousing. Key achievements in this role include:
+                </p>
+                <br>
+                <ul class="card-list">
+                    <li>
+                        Strengthened problem-solving skills by working on a high-traffic product with a large customer base
+                    </li>
+                    <li>
+                        Developed a REST API backend to support the website and multiple apps (iOS & Android)
+                    </li>
+                    <li>
+                        Built backend REST APIs for administrative functions and developed several internal applications
+                    </li>
+                    <li>
+                        Gained expertise in code modularization by segmenting a large codebase into smaller, more manageable modules
+                    </li>
+                    <li>
+                        Increased application performance by optimizing database queries
+                    </li>
+                    <li>
+                        Developed supervisory skills by mentoring junior team members and reviewing their code
+                    </li>
+                    <li>
+                        Improved automated testing skills by implementing unit tests in a previously untested codebase
+                    </li>
+                    <li>
+                        Enhanced communication skills through direct collaboration with business stakeholders to define technical requirements
+                    </li>
+                    <li>
+                        Expanded proficiency with essential tools, including CI/CD, Git, databases, and CDNs
+                    </li>
+                </ul>
             </div>
-            <div class="langContainer">
-              <div class="langName">German</div>
-              <div class="langProgress">
-                <div class="progressBar">
-                  <div id="langDeu"></div>
+
+            <div class="card-entry">
+                <div class="card-header">
+                    <h3 class="card-title">Python Developer — Labrin Tech</h3>
+                    <span class="card-date">November 2019 — June 2020</span>
                 </div>
-              </div>
+                <p class="summary-text">
+                    Worked as a junior developer under the guidance of senior team members, contributing to various client projects to develop tailored software solutions. Key achievements in this role include:
+                </p>
+                <ul class="card-list">
+                    <li>
+                        Gained experience in translating real-world business needs into software solutions
+                    </li>
+                    <li>
+                        Developed proficiency with essential software development tools, including version control systems (Git), Docker, CI/CD, and IDEs (Visual Studio Code, PyCharm)
+                    </li>
+                    <li>
+                        Created multiple static and dynamic websites for client projects
+                    </li>
+                    <li>
+                        Improved skills in refining code based on team feedback
+                    </li>
+                </ul>
             </div>
-          </div>
-          <div class="clear"></div>
         </section>
 
-        <section>
-          <div class="sectionTitle">
-            <h1>Key Skills</h1>
-          </div>
+        <hr class="markdown-hr"/>
 
-          <div class="sectionContent">
-            <ul class="keySkills">
-              <li>Python</li>
-              <li>Django/Flask/FastAPI</li>
-              <li>Django Rest Framework</li>
-              <li>Django tests/Pytest</li>
-              <li>AIOHTTP</li>
-              <li>Redis/Celery</li>
-              <li>PostgreSQL/MySQL</li>
-              <li>MongoDB/DynamoDB/Elasticsearch</li>
-              <li>Docker/Kubernetes</li>
-              <li>Git</li>
-              <li>Github/Bitbucket/Gitlab</li>
-              <li>CI/CD</li>
-              <li>gRPC</li>
-              <li>AWS/Google Cloud Platform</li>
-              <li>C/C++ (basics)</li>
-            </ul>
-          </div>
-          <div class="clear"></div>
+        <section class="section">
+            <h2 class="section-title section-title-lg">Projects</h2>
+            <div class="card-entry">
+                <div class="card-header">
+                    <h3 class="card-title">Hospitality and Tourism/Concierge Services</h3>
+                    <span class="card-date">Feb 2023 - Feb 2025</span>
+                </div>
+                <p class="summary-text">
+                    Maintained an existing platform and collaborated closely with senior stakeholders to gather business requirements and translate them into technical solutions for the development team. Worked on a large monolithic Django application alongside multiple microservices, ensuring seamless integration with various external services. Additionally, contributed to refactoring certain functionalities by extracting them into independent microservices to improve scalability and maintainability.
+                </p>
+                <div class="tech-tags">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Django</span>
+                    <span class="tech-tag">DRF</span>
+                    <span class="tech-tag">Celery</span>
+                    <span class="tech-tag">Redis</span>
+                    <span class="tech-tag">Postgres</span>
+                    <span class="tech-tag">RabbitMQ</span>
+                    <span class="tech-tag">S3</span>
+                    <span class="tech-tag">Aiohttp</span>
+                    <span class="tech-tag">Poetry</span>
+                    <span class="tech-tag">GRPC</span>
+                    <span class="tech-tag">Docker</span>
+                    <span class="tech-tag">Docker-compose</span>
+                    <span class="tech-tag">ElasticSearch</span>
+                    <span class="tech-tag">AWS</span>
+                    <span class="tech-tag">TeamCity</span>
+                    <span class="tech-tag">Grafana</span>
+                    <span class="tech-tag">Logz.io</span>
+                </div>
+            </div>
+
+            <div class="card-entry">
+                <div class="card-header">
+                    <h3 class="card-title">Hospitality and Tourism/Cruise and Yachts</h3>
+                    <span class="card-date">June 2022 - Jan 2023</span>
+                </div>
+                <p class="summary-text">
+                    Redesigned and refactored a decades-old application into a modern, scalable system. Collaborated closely with the software architect to design the new architecture. Developed the backend from scratch, including designing database models to accommodate both existing and new requirements. Led the migration of data from the legacy system to the new application while ensuring data integrity. Additionally, worked on integrating the new system with various external services.
+                </p>
+                <div class="tech-tags">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Flask</span>
+                    <span class="tech-tag">Postgres</span>
+                    <span class="tech-tag">AWS</span>
+                    <span class="tech-tag">Algolia search</span>
+                    <span class="tech-tag">Auth0</span>
+                </div>
+            </div>
+
+            <div class="card-entry">
+                <div class="card-header">
+                    <h3 class="card-title">Nonprofit and Social Impact/Charity organizations</h3>
+                    <span class="card-date">Nov 2021 - May 2022</span>
+                </div>
+                <p class="summary-text">
+                    Refactored an existing application to enhance performance and maintainability while leading a small team of two junior developers. Redesigned the system by extracting common components of the data pipeline across 80+ countries, standardizing processes into meaningful abstractions. Developed scrapers for pipelines where data was not readily available. Implemented a comprehensive testing framework from scratch, achieving a high test coverage rate. Optimized backend infrastructure to improve decoupling and significantly boost pipeline performance.
+                </p>
+                <div class="tech-tags">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">DynamoDB</span>
+                    <span class="tech-tag">Lambda</span>
+                    <span class="tech-tag">S3</span>
+                    <span class="tech-tag">Github codespaces</span>
+                    <span class="tech-tag">Apify</span>
+                    <span class="tech-tag">Selenium</span>
+                </div>
+            </div>
+
+            <div class="card-entry">
+                <div class="card-header">
+                    <h3 class="card-title">Human Resources (HR) Technology/Employee Management&Recruitment</h3>
+                    <span class="card-date">June 2021 - Nov 2021</span>
+                </div>
+                <p class="summary-text">
+                    Contributed to the development of multiple company products, collaborating closely with senior stakeholders to gather business requirements and translate them into technical solutions. Played a key role in building a new SaaS product from scratch while also maintaining and improving an existing platform. Implemented unit testing from the ground up in the new product to ensure code reliability and maintainability.
+                </p>
+                <div class="tech-tags">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Django</span>
+                    <span class="tech-tag">MySQL</span>
+                    <span class="tech-tag">Sentry</span>
+                    <span class="tech-tag">Celery</span>
+                    <span class="tech-tag">Redis</span>
+                </div>
+            </div>
+
+            <div class="card-entry">
+                <div class="card-header">
+                    <h3 class="card-title">Cargo and Transportation/Logistics</h3>
+                    <span class="card-date">June 2020 - May 2021</span>
+                </div>
+                <p class="summary-text">
+                    Developed a REST API used by web, mobile, and internal administrative applications. Integrated various third-party services, including email, SMS, payments, and domain-specific tools. Delivered new products based on evolving business needs. Extensively customized Django Admin and introduced new frontend modules in React.js, seamlessly communicating with the REST API. Implemented a service for exporting large datasets from the database and built a notification system for SMS, email campaigns, and push notifications. Supervised junior developers, providing guidance and code reviews. Technologies used: Python, Django, DRF, DigitalOcean, Postgres, AWS S3, Celery, Sentry, Docker, Bitbucket
+                </p>
+                <div class="tech-tags">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Django</span>
+                    <span class="tech-tag">DRF</span>
+                    <span class="tech-tag">DigitalOcean</span>
+                    <span class="tech-tag">Postgres</span>
+                    <span class="tech-tag">AWS S3</span>
+                    <span class="tech-tag">Celery</span>
+                    <span class="tech-tag">Sentry</span>
+                    <span class="tech-tag">Docker</span>
+                    <span class="tech-tag">Bitbucket</span>
+                </div>
+            </div>
+
+            <div class="card-entry">
+                <div class="card-header">
+                    <h3 class="card-title">Finance/Algorithmic Trading & Backtesting</h3>
+                    <span class="card-date">Dec 2019 - June 2020</span>
+                </div>
+                <p class="summary-text">
+                    Developed and automated trading strategies, focusing on backtesting to evaluate performance. Implemented logic for detecting buy/sell signals based on various technical indicators and chart patterns. Designed visual representations of detected signals using Python's Matplotlib library, enhancing data interpretation. Conducted backtesting on historical stock data to generate performance metrics and refine strategy effectiveness. Additionally, integrated stock market data APIs to retrieve historical data for technical analysis and strategy development. Technologies used: Python, Numpy, Scipy, Matplotlib, Yahoo Finance API.
+                </p>
+                <div class="tech-tags">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Numpy</span>
+                    <span class="tech-tag">Scipy</span>
+                    <span class="tech-tag">Matplotlib</span>
+                    <span class="tech-tag">Yahoo Finance API</span>
+                </div>
+            </div>
         </section>
 
-        <section>
-          <div class="sectionTitle">
-            <h1>Education</h1>
-          </div>
+        <hr class="markdown-hr"/>
 
-          <div class="sectionContent">
-            <article>
-              <h2>Qafqaz University</h2>
-              <p class="subDetails">Bachelor in Finance</p>
-              <p>September 2012 - May 2017</p>
-            </article>
-            <article>
-              <h2>Azerbaijan State University of Economics • UNEC</h2>
-              <p class="subDetails">Master in Statistics</p>
-              <p>September 2017 - May 2019  </p>
-            </article>
-          </div>
-          <div class="clear"></div>
+        <section class="section">
+            <h2 class="section-title section-title-lg">Languages</h2>
+            <div class="languages-grid">
+                <div>
+                    <h3 class="language-title">English</h3>
+                    <p class="language-description">Professional working proficiency</p>
+                </div>
+                <div>
+                    <h3 class="language-title">Russian</h3>
+                    <p class="language-description">Professional working proficiency</p>
+                </div>
+                <div>
+                    <h3 class="language-title">German</h3>
+                    <p class="language-description">Elementary proficiency</p>
+                </div>
+            </div>
         </section>
-      </div>
-    </div>
-  </body>
+
+        <section class="section">
+            <h2 class="section-title section-title-lg">Education</h2>
+            <div class="education-list">
+                <div class="education-entry">
+                    <div>
+                        <span class="education-degree">Master in Statistics</span> — Azerbaijan State University of Economics (UNEC)
+                    </div>
+                    <span class="card-date">2017 — 2019</span>
+                </div>
+                <div class="education-entry">
+                    <div>
+                        <span class="education-degree">Bachelor in Finance</span> — Qafqaz University
+                    </div>
+                    <span class="card-date">2012 — 2017</span>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p class="footer-text">
+                Elgin Cahangirov • Software Engineer
+            </p>
+        </footer>
+    </main>
+
+    <script>
+        (function() {
+            const html = document.documentElement;
+            const toggle = document.getElementById('theme-toggle');
+
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'dark' || (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                html.classList.add('dark');
+            }
+
+            toggle.addEventListener('click', function() {
+                html.classList.toggle('dark');
+                localStorage.setItem('theme', html.classList.contains('dark') ? 'dark' : 'light');
+            });
+        })();
+    </script>
+</body>
 </html>
