@@ -423,8 +423,15 @@ html.dark .tech-tag {
 
 .education-entry {
     display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .education-entry {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+    }
 }
 
 .education-degree {
