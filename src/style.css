@@ -341,9 +341,16 @@ html.dark .competency-text {
 
 .card-header {
     display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+    flex-direction: column;
     margin-bottom: 0.5rem;
+}
+
+@media (min-width: 768px) {
+    .card-header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+    }
 }
 
 .card-title {
