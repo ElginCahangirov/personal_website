@@ -35,7 +35,7 @@ body {
     background-color: var(--background-light);
     color: var(--slate-900);
     min-height: 100vh;
-    padding: 3rem 1rem;
+    padding: 1rem 0.5rem;
     transition: background-color 0.3s, color 0.3s;
 }
 
@@ -62,13 +62,17 @@ html.dark body {
     background-color: var(--white);
     box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
     border: 1px solid var(--slate-200);
-    padding: 3rem;
+    padding: 1.5rem;
     position: relative;
 }
 
 @media (min-width: 768px) {
     .document-container {
         padding: 4rem;
+    }
+
+    body {
+        padding: 3rem 1rem;
     }
 }
 
@@ -423,6 +427,7 @@ html.dark .tech-tag {
 
 .education-entry {
     display: flex;
+
     flex-direction: column;
 }
 
